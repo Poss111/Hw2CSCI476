@@ -1,0 +1,12 @@
+I used the hydra protocol in kali linux. I used the 
+command line hydra -s 22 -V -l test -P /usr/shar/wordlists/
+" " 70.39.80.128 ssh. I cycled through several word lists
+found in this directory which included termineter.txt, 
+dnsmap.txt, and common.txt within the fern-wifi file. I 
+finally used fasttrack.txt and came upon changeme for the 
+password for the username "test". Then used ssh 
+test@70.39.80.128 to logon to the server and got 
+test@70.39.80.128's password:. I entered in changeme and 
+recieve Hello test, You are not authorized to connect to
+www.mthack.me. Please contact System Administration. 
+e4e47ef058431a08d714506a09d155a58279e4ee.
